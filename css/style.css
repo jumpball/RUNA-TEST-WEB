@@ -1202,7 +1202,7 @@ body::after {
 }
 
 .roster-selector__menu {
-  margin: 32px 0px 20px 0px;
+  margin: 20px 0px 20px 0px;
   z-index: 2;
 }
 
@@ -1240,7 +1240,7 @@ body::after {
 }
 
 .leaders-selector__menu {
-  margin: 32px 0px 20px 0px;
+  margin: 20px 0px 20px 0px;
   z-index: 2;
 }
 
@@ -2078,30 +2078,7 @@ body::after {
   font-weight: 900;
   letter-spacing: 0.125rem;
   text-transform: uppercase;
-}
-
-@supports (padding-top: clamp( 0.625rem , -0.0101884223rem  +  2.0326029513vw , 1.25rem )) {
-  .section-title {
-    padding-top: clamp( 0.625rem , -0.0101884223rem  +  2.0326029513vw , 1.25rem );
-  }
-}
-
-@supports not (padding-top: clamp( 0.625rem , -0.0101884223rem  +  2.0326029513vw , 1.25rem )) {
-  .section-title {
-    padding-top: calc(0.625rem + 0.625 * (100vw - 31.25rem) / 30.74875);
-  }
-}
-
-@supports (padding-botom: clamp( 0.375rem , 0.1209246311rem  +  0.8130411805vw , 0.625rem )) {
-  .section-title {
-    padding-botom: clamp( 0.375rem , 0.1209246311rem  +  0.8130411805vw , 0.625rem );
-  }
-}
-
-@supports not (padding-botom: clamp( 0.375rem , 0.1209246311rem  +  0.8130411805vw , 0.625rem )) {
-  .section-title {
-    padding-botom: calc(0.375rem + 0.25 * (100vw - 31.25rem) / 30.74875);
-  }
+  padding: 20px 0px 20px 0px;
 }
 
 .section-title span {
@@ -3363,7 +3340,7 @@ td {
 }
 
 .tabs-video {
-  margin: 40px 0px 40px 0px;
+  margin: 20px 0px 20px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3413,7 +3390,7 @@ td {
   border: 0.0625rem solid #5b2a98;
   border-radius: 0.625rem;
   color: #ffffff;
-  background-color: #2e006a;
+  background-color: #5b2a98;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3474,8 +3451,9 @@ td {
 
 .tabs-video__box {
   width: 60rem;
-  height: 33.75rem;
+  height: auto;
   position: relative;
+  aspect-ratio: 16/9;
   overflow: hidden;
   z-index: 2;
 }
@@ -6413,13 +6391,11 @@ td {
 .pattern-game-card-1 {
   background-color: #8bc218;
   background-image: url("../img/RUNA/patterns/patterns-2.svg");
-  margin-top: 1.25rem;
 }
 
 .pattern-game-card-2 {
   background-color: #8bc218;
   background-image: url("../img/RUNA/patterns/patterns-3.svg");
-  margin-top: 1.25rem;
 }
 
 .team-leader-card {
@@ -7055,6 +7031,7 @@ td {
 }
 
 .calendar-slider {
+  padding: 20px 0px 20px 0px;
   overflow: hidden;
 }
 
@@ -7984,7 +7961,7 @@ td {
 }
 
 .video-slider__block {
-  margin: 40px 0px 20px 0px;
+  margin: 20px 0px 20px 0px;
   overflow: hidden;
 }
 
@@ -8284,33 +8261,10 @@ td {
 
 .partners-slider {
   background-color: #352945;
-  padding: 40px 0px 40px 0px;
+  margin: 20px 0px 0px 0px;
+  padding: 20px 0px 20px 0px;
   overflow: hidden;
   border-radius: 0.625rem;
-}
-
-@supports (margin-bottom: clamp( 1.25rem , 0.9375rem  +  1.5625vw , 2.5rem )) {
-  .partners-slider {
-    margin-bottom: clamp( 1.25rem , 0.9375rem  +  1.5625vw , 2.5rem );
-  }
-}
-
-@supports not (margin-bottom: clamp( 1.25rem , 0.9375rem  +  1.5625vw , 2.5rem )) {
-  .partners-slider {
-    margin-bottom: calc(1.25rem + 1.25 * (100vw - 20rem) / 80);
-  }
-}
-
-@supports (margin-top: clamp( 1.25rem , 0.9375rem  +  1.5625vw , 2.5rem )) {
-  .partners-slider {
-    margin-top: clamp( 1.25rem , 0.9375rem  +  1.5625vw , 2.5rem );
-  }
-}
-
-@supports not (margin-top: clamp( 1.25rem , 0.9375rem  +  1.5625vw , 2.5rem )) {
-  .partners-slider {
-    margin-top: calc(1.25rem + 1.25 * (100vw - 20rem) / 80);
-  }
 }
 
 .partners-slider__box {
@@ -12995,7 +12949,7 @@ td {
 
 .banner {
   position: relative;
-  margin: 40px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
 }
 
 .banner__link {
@@ -15852,10 +15806,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     }
 }
 
-  .tabs-video__box {
-    padding: 0px 0px 56% 0px;
-  }
-
 @supports (width: clamp( 35rem , -16.8850161095rem  +  83.685509854vw , 60rem )) {
     .tabs-video__box {
       width: clamp( 35rem , -16.8850161095rem  +  83.685509854vw , 60rem );
@@ -15865,18 +15815,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 @supports not (width: clamp( 35rem , -16.8850161095rem  +  83.685509854vw , 60rem )) {
     .tabs-video__box {
       width: calc(35rem + 25 * (100vw - 62rem) / 29.87375);
-    }
-}
-
-@supports (height: clamp( 20rem , -8.5367588602rem  +  46.0270304197vw , 33.75rem )) {
-    .tabs-video__box {
-      height: clamp( 20rem , -8.5367588602rem  +  46.0270304197vw , 33.75rem );
-    }
-}
-
-@supports not (height: clamp( 20rem , -8.5367588602rem  +  46.0270304197vw , 33.75rem )) {
-    .tabs-video__box {
-      height: calc(20rem + 13.75 * (100vw - 62rem) / 29.87375);
     }
 }
 }
@@ -16776,18 +16714,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 @supports not (width: clamp( 18.125rem , -1.8160696747rem  +  99.7053483735vw , 60rem )) {
     .tabs-video__box {
       width: calc(18.125rem + 41.875 * (100vw - 20rem) / 41.99875);
-    }
-}
-
-@supports (height: clamp( 10.125rem , -1.1253348314rem  +  56.251674157vw , 33.75rem )) {
-    .tabs-video__box {
-      height: clamp( 10.125rem , -1.1253348314rem  +  56.251674157vw , 33.75rem );
-    }
-}
-
-@supports not (height: clamp( 10.125rem , -1.1253348314rem  +  56.251674157vw , 33.75rem )) {
-    .tabs-video__box {
-      height: calc(10.125rem + 23.625 * (100vw - 20rem) / 41.99875);
     }
 }
 
@@ -18344,6 +18270,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+
+  .section-title {
+    padding: 12px 0px 12px 0px;
   }
 
 @supports (font-size: clamp( 0.75rem , 0.2262805785rem  +  1.3515339911vw , 0.875rem )) {
