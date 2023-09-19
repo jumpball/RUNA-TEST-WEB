@@ -22987,10 +22987,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     border-bottom: 0.0625rem solid transparent;
   }
 
-  tbody tr:nth-child(odd) td {
-    background-color: #eef0f2;
-  }
-
   tbody tr:nth-child(odd):hover td {
     background-color: #a4a9ad;
   }
