@@ -16698,11 +16698,11 @@ PERFORMANCE OF THIS SOFTWARE.
             },
             breakpoints: {
                 320: {
-                    slidesPerView: 1.1,
+                    slidesPerView: 1.05,
                     spaceBetween: 10
                 },
                 549.98: {
-                    slidesPerView: 2.1,
+                    slidesPerView: 2.05,
                     spaceBetween: 10
                 },
                 767.98: {
@@ -16882,6 +16882,12 @@ PERFORMANCE OF THIS SOFTWARE.
             navigation: {
                 prevEl: ".leaders-menu-slider__nav-prev",
                 nextEl: ".leaders-menu-slider__nav-next"
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                type: "bullets",
+                clickable: true,
+                dynamicBullets: true
             },
             breakpoints: {
                 320: {
@@ -17557,6 +17563,10 @@ PERFORMANCE OF THIS SOFTWARE.
             },
             breakpoints: {
                 320: {
+                    slidesPerView: 1.05,
+                    spaceBetween: 10
+                },
+                549.98: {
                     slidesPerView: 1,
                     spaceBetween: 10
                 }
