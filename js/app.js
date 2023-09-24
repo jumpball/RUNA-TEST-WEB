@@ -16698,7 +16698,7 @@ PERFORMANCE OF THIS SOFTWARE.
             },
             breakpoints: {
                 320: {
-                    slidesPerView: 1.05,
+                    slidesPerView: 1.1,
                     spaceBetween: 10
                 },
                 549.98: {
@@ -17343,6 +17343,7 @@ PERFORMANCE OF THIS SOFTWARE.
             observeSlideChildren: true,
             loop: true,
             slideToClickedSlide: true,
+            direction: "vertical",
             autoplay: {
                 delay: 6e3,
                 stopOnLastSlide: false,
@@ -17354,29 +17355,8 @@ PERFORMANCE OF THIS SOFTWARE.
             },
             breakpoints: {
                 320: {
-                    slidesPerView: 1,
-                    spaceBetween: 16,
-                    direction: "horizontal"
-                },
-                599.98: {
-                    slidesPerView: 2,
-                    spaceBetween: 16,
-                    direction: "horizontal"
-                },
-                991.98: {
-                    slidesPerView: 5,
-                    spaceBetween: 16,
-                    direction: "vertical"
-                },
-                1149.98: {
-                    slidesPerView: 4,
-                    spaceBetween: 16,
-                    direction: "vertical"
-                },
-                1249.98: {
                     slidesPerView: 3,
-                    spaceBetween: 16,
-                    direction: "vertical"
+                    spaceBetween: 16
                 }
             }
         });
@@ -17684,37 +17664,31 @@ PERFORMANCE OF THIS SOFTWARE.
             }));
         }
         const slider = document.querySelector(".publications-slider");
+        const MOBILE_BREAKPOINT = 991.98;
         let publicationsSwiper = null;
         function initSwiper() {
-            const MOBILE_BREAKPOINT = 767.98;
-            if (window.innerWidth <= MOBILE_BREAKPOINT && slider && "false" === slider.dataset.mobile) {
-                publicationsSwiper = new Swiper(slider, {
-                    slidesPerView: "auto",
-                    spaceBetween: 10,
-                    observer: true,
-                    observeParents: true,
-                    observeSlideChildren: true,
-                    navigation: {
-                        prevEl: ".publications-slider__nav-prev",
-                        nextEl: ".publications-slider__nav-next"
+            if (window.innerWidth <= MOBILE_BREAKPOINT && slider) publicationsSwiper = new Swiper(slider, {
+                slidesPerView: "auto",
+                spaceBetween: 10,
+                observer: true,
+                observeParents: true,
+                observeSlideChildren: true,
+                navigation: {
+                    prevEl: ".publications-slider__nav-prev",
+                    nextEl: ".publications-slider__nav-next"
+                },
+                breakpoints: {
+                    320: {
+                        slidesPerView: 1.1
                     },
-                    breakpoints: {
-                        320: {
-                            slidesPerView: 1.1
-                        },
-                        549.98: {
-                            slidesPerView: 2.1
-                        },
-                        [MOBILE_BREAKPOINT]: {
-                            slidesPerView: 3.1
-                        }
+                    549.98: {
+                        slidesPerView: 2.1
+                    },
+                    [MOBILE_BREAKPOINT]: {
+                        slidesPerView: 3.1
                     }
-                });
-                slider.dataset.mobile = "true";
-            } else if (publicationsSwiper) {
-                publicationsSwiper.destroy();
-                slider.dataset.mobile = "false";
-            }
+                }
+            }); else if (publicationsSwiper) publicationsSwiper.destroy();
         }
         initSwiper();
         window.addEventListener("load", (() => {
