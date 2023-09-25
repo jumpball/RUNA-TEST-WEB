@@ -10437,6 +10437,7 @@ td {
   position: relative;
   padding: 0px 0px 15px 0px;
   height: 100%;
+  min-height: 100%;
   overflow: hidden;
   -webkit-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
@@ -13443,8 +13444,19 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--secondary .for
   background-color: #93d500;
   color: #5b2a98;
   border-radius: 10px 0px 10px 0px;
-  min-height: 56px;
   padding: 0px 16px 0px 16px;
+}
+
+@supports (min-height: clamp( 2.625rem , 1.8529033286rem  +  3.4315407618vw , 3.5rem )) {
+  html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--secondary .form-control__button {
+    min-height: clamp( 2.625rem , 1.8529033286rem  +  3.4315407618vw , 3.5rem );
+  }
+}
+
+@supports not (min-height: clamp( 2.625rem , 1.8529033286rem  +  3.4315407618vw , 3.5rem )) {
+  html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--secondary .form-control__button {
+    min-height: calc(2.625rem + 0.875 * (100vw - 22.5rem) / 25.49875);
+  }
 }
 
 html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--animated.form-control--done .form-control__button-text,
@@ -13455,10 +13467,23 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--animated.form-
   transition: opacity 0.1s linear 1.5s;
   color: #5b2a98;
   font-weight: 700;
-  line-height: 56px;
   font-family: "bebasneuepro";
   text-transform: uppercase;
   font-size: 22px;
+}
+
+@supports (line-height: clamp( 2.625rem , 1.8529033286rem  +  3.4315407618vw , 3.5rem )) {
+  html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--animated.form-control--done .form-control__button-text,
+  html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--animated.form-control--done .form-control__button-svg {
+    line-height: clamp( 2.625rem , 1.8529033286rem  +  3.4315407618vw , 3.5rem );
+  }
+}
+
+@supports not (line-height: clamp( 2.625rem , 1.8529033286rem  +  3.4315407618vw , 3.5rem )) {
+  html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--animated.form-control--done .form-control__button-text,
+  html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--animated.form-control--done .form-control__button-svg {
+    line-height: calc(2.625rem + 0.875 * (100vw - 22.5rem) / 25.49875);
+  }
 }
 
 html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control__button .svg-icon svg {
@@ -21817,6 +21842,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
   .tabs-video__info-bage {
     height: 6.25rem;
+  }
+
+  .team-leader-card {
+    min-height: 34rem;
   }
 
   .team-leader-card__info {
