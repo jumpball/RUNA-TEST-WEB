@@ -13274,316 +13274,206 @@ td {
   padding: 0px 0px 40% 0px;
 }
 
-html#ecwid_html body#ecwid_body div.ecwid-productBrowser {
-  background-color: rgba(255, 255, 255, 0);
-  min-width: 100%;
+.shop__box .form-control--select-inline,
+.shop__box .grid-sort__item,
+.shop__box .grid-sort__item--sortby {
+  border-radius: 0.3125rem !important;
+  padding: 8px 24px 8px 24px !important;
+  background-color: #423356 !important;
+  border: 1px solid #69597e !important;
+  color: #ffffff !important;
+  font-family: "bebasneuepro" !important;
+  font-weight: 700 !important;
+  font-size: 1.375rem !important;
 }
 
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__wrap-inner,
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__categories,
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  padding-right: 20px;
+.shop__box .form-control__arrow {
+  width: 1rem !important;
+  height: 1rem !important;
 }
 
-html#ecwid_html body#ecwid_body .ecsp,
-html#ecwid_html body#ecwid_body .ecwid {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.42857;
-  color: #93d500;
-  margin: 0;
-  word-wrap: normal;
-  word-break: normal;
-  min-width: 100%;
-  padding: 20px 20px;
+.shop__box .form-control__select {
+  margin-top: 10px !important;
+  font-size: 1.125rem !important;
 }
 
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__wrap-inner,
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__categories,
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  padding-right: 0px;
+.shop__box .form-control__select option {
+  font-family: "bebasneuepro" !important;
 }
 
-html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-store__content-wrapper {
-  min-width: 100%;
-  margin: 0 auto;
+.shop__box .grid__products--large-items .grid-product__wrap {
+  padding: 16px !important;
 }
 
-body#ecwid_body {
-  -webkit-text-size-adjust: 100%;
-  min-width: 100%;
+.shop__box .grid-product__wrap-inner,
+.shop__box .details-gallery__image-wrapper-inner {
+  background-color: #423356 !important;
+  border: 1px solid #69597e !important;
+  border-radius: 0.625rem !important;
+  overflow: hidden !important;
 }
 
-html#ecwid_html body#ecwid_body .ec-size.ec-size--s .ec-store .ec-grid {
-  padding-bottom: 16px;
-  min-width: 100%;
+.shop__box .grid-product__image,
+.shop__box .details-gallery__thumb-img-wrapper-inner,
+.shop__box .details-gallery__photoswipe-thumb-index-0 {
+  border-radius: 0.625rem !important;
+  overflow: hidden !important;
 }
 
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__wrap .grid__products {
-  width: 100%;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+.shop__box .grid__products--large-items .grid-product__label {
+  font-size: 1.375rem !important;
+  line-height: 1.5rem !important;
+  font-family: "bebasneuepro" !important;
+  font-weight: 700 !important;
+  margin: 20px 0px 0px 0px !important;
 }
 
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__wrap-inner,
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__categories,
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+.shop__box .grid__products--large-items .grid-product__label div {
+  padding: 3px 10px 3px 10px !important;
+  background-color: #5b2a98 !important;
 }
 
-html#ecwid_html body#ecwid_body div.ecwid-productBrowser {
-  padding: 20px 20px;
-  background-color: rgba(255, 255, 255, 0);
+.shop__box .grid-product__title,
+.shop__box .grid-product__title-inner {
+  font-size: 1.375rem !important;
+  font-weight: 700 !important;
+  color: #8bc218 !important;
+  text-transform: uppercase !important;
+  font-family: "bebasneuepro" !important;
 }
 
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__wrap .grid__products {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+.shop__box .grid-product__textblock {
+  color: #c4c5c8 !important;
+  font-weight: 300 !important;
+  text-transform: uppercase !important;
+  font-family: "bebasneuepro" !important;
+  font-size: 1rem !important;
 }
 
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products[data-cols="5"] .grid-product:nth-child(n+1) {
-  width: 100%;
+.shop__box .grid-product__price-amount,
+.shop__box .grid-product__price-value {
+  font-size: 1.875rem !important;
+  font-weight: 900 !important;
+  color: #8bc218 !important;
+  text-transform: uppercase !important;
+  font-family: "bebasneuepro" !important;
+  letter-spacing: 0.125rem !important;
 }
 
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--small-items .grid-product__button .form-control__button {
-  padding-right: 2.8em;
-  padding-left: 2.8em;
+.shop__box .form-control__button,
+.shop__box .form-control__button--icon-center {
+  background-color: #8bc218 !important;
+  border: 1px solid transparent !important;
 }
 
-html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-text-muted {
-  color: #fff;
+.shop__box .form-control__button-text {
+  font-size: 1.375rem !important;
+  font-weight: 700 !important;
+  color: #5b2a98 !important;
+  text-transform: uppercase !important;
+  font-family: "bebasneuepro" !important;
 }
 
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid-product__price-amount {
-  color: #c4c5c8;
+.shop__box .footer__link--shopping-cart {
+  border-radius: 0.3125rem !important;
+  padding: 8px 24px 8px 24px !important;
+  background-color: #423356 !important;
+  border: 1px solid #69597e !important;
+  color: #ffffff !important;
+  font-family: "bebasneuepro" !important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  font-size: 1.375rem !important;
 }
 
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid-product__title-inner {
-  overflow: hidden;
-  min-height: 1.3em;
-  color: #93d500;
-  font-weight: 700;
+.shop__box .product-details__product-title {
+  font-size: 1.375rem !important;
+  font-weight: 700 !important;
+  color: #8bc218 !important;
+  text-transform: uppercase !important;
+  font-family: "bebasneuepro" !important;
 }
 
-html#ecwid_html body#ecwid_body .ec-size .ec-store * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  opacity: 1;
-  min-width: 0;
-  max-width: none;
-  min-height: 0;
-  max-height: none;
-  margin: 0;
-  padding: 0;
-  background: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  letter-spacing: normal;
-  word-spacing: normal;
-  -webkit-transform: none;
-      -ms-transform: none;
-          transform: none;
-  -webkit-transform-origin: center center;
-      -ms-transform-origin: center center;
-          transform-origin: center center;
-  -webkit-transition: none;
-  -o-transition: none;
-  transition: none;
-  border-radius: 5px;
-  overflow: hidden;
+.shop__box .product-details__product-sku,
+.shop__box .details-product-price-compare__value,
+.shop__box .product-details__product-price-discount,
+.shop__box .product-details-module__title,
+.shop__box .details-product-purchase__place {
+  color: #c4c5c8 !important;
+  font-weight: 300 !important;
+  text-transform: uppercase !important;
+  font-family: "bebasneuepro" !important;
+  font-size: 1rem !important;
 }
 
-html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-label {
-  display: inline-block;
-  position: relative;
-  padding: 0.1em 0.5em 0;
-  margin-right: 0.5em;
-  background-color: #5b2a98;
-  -webkit-font-smoothing: antialiased;
+.shop__box .label--custom,
+.shop__box .label--flag {
+  font-size: 1.375rem !important;
+  line-height: 1.5rem !important;
+  font-family: "bebasneuepro" !important;
+  font-weight: 700 !important;
 }
 
-html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--secondary .form-control__button {
-  background-color: #93d500;
-  color: #5b2a98;
-  border-radius: 10px 0px 10px 0px;
-  padding: 0px 16px 0px 16px;
+.shop__box .product-details__product-price,
+.shop__box .ec-cart-summary__total,
+.shop__box .ec-cart-summary__title {
+  font-size: 1.875rem !important;
+  font-weight: 900 !important;
+  color: #8bc218 !important;
+  text-transform: uppercase !important;
+  font-family: "bebasneuepro" !important;
+  letter-spacing: 0.125rem !important;
 }
 
-@supports (min-height: clamp( 2.625rem , 1.8529033286rem  +  3.4315407618vw , 3.5rem )) {
-  html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--secondary .form-control__button {
-    min-height: clamp( 2.625rem , 1.8529033286rem  +  3.4315407618vw , 3.5rem );
-  }
+.shop__box .form-control__button,
+.shop__box .form-control__button--icon-center {
+  background-color: #8bc218 !important;
+  border: 1px solid transparent !important;
 }
 
-@supports not (min-height: clamp( 2.625rem , 1.8529033286rem  +  3.4315407618vw , 3.5rem )) {
-  html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--secondary .form-control__button {
-    min-height: calc(2.625rem + 0.875 * (100vw - 22.5rem) / 25.49875);
-  }
+.shop__box .form-control__button-text {
+  font-size: 1.375rem !important;
+  font-weight: 700 !important;
+  color: #5b2a98 !important;
+  text-transform: uppercase !important;
+  font-family: "bebasneuepro" !important;
 }
 
-html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--animated.form-control--done .form-control__button-text,
-html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--animated.form-control--done .form-control__button-svg {
-  opacity: 1;
-  -webkit-transition: opacity 0.1s linear 1.5s;
-  -o-transition: opacity 0.1s linear 1.5s;
-  transition: opacity 0.1s linear 1.5s;
-  color: #5b2a98;
-  font-weight: 700;
-  font-family: "bebasneuepro";
-  text-transform: uppercase;
-  font-size: 22px;
+.shop__box .page-title__name,
+.shop__box .ec-cart-next__header,
+.shop__box .ec-cart-item__price-inner,
+.shop__box .ec-cart-step__title,
+.shop__box .ec-cart-step__next,
+.shop__box .ec-cart-summary__price {
+  font-size: 1.375rem !important;
+  font-weight: 700 !important;
+  color: #8bc218 !important;
+  text-transform: uppercase !important;
+  font-family: "bebasneuepro" !important;
 }
 
-@supports (line-height: clamp( 2.625rem , 1.8529033286rem  +  3.4315407618vw , 3.5rem )) {
-  html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--animated.form-control--done .form-control__button-text,
-  html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--animated.form-control--done .form-control__button-svg {
-    line-height: clamp( 2.625rem , 1.8529033286rem  +  3.4315407618vw , 3.5rem );
-  }
+.shop__box .ec-cart-next__title,
+.shop__box .ec-cart-item__title,
+.shop__box .ec-cart-step__text,
+.shop__box .breadcrumbs__link {
+  color: #8bc218 !important;
+  font-weight: 300 !important;
+  text-transform: uppercase !important;
+  font-family: "bebasneuepro" !important;
+  font-size: 1rem !important;
 }
 
-@supports not (line-height: clamp( 2.625rem , 1.8529033286rem  +  3.4315407618vw , 3.5rem )) {
-  html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--animated.form-control--done .form-control__button-text,
-  html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--animated.form-control--done .form-control__button-svg {
-    line-height: calc(2.625rem + 0.875 * (100vw - 22.5rem) / 25.49875);
-  }
-}
-
-html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control__button .svg-icon svg {
-  opacity: 0;
-  width: 100%;
-  height: 100%;
-  vertical-align: top;
-}
-
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products[data-cols="3"] .grid-product:nth-child(n+1) {
-  width: 100%;
-}
-
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products[data-cols="3"] .grid-product:nth-child(n+1) {
-  width: 100%;
-}
-
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products[data-cols="3"] .grid-product:nth-child(n+1) {
-  width: 100%;
-}
-
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid-product {
-  /* display: flex; */
-  text-align: center;
-}
-
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid-product {
-  /* display: flex; */
-  text-align: center;
-}
-
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid-product__title-inner {
-  overflow: hidden;
-  min-height: 1.3em;
-  color: #93d500;
-  font-weight: 700;
-  font-family: "bebasneuepro";
-}
-
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products.grid__products--large-items[data-cols="1"] .grid-product {
-  max-width: none;
-}
-
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--appearance-frame .grid-product__wrap {
-  background-color: transparent;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 8px;
-}
-
-html#ecwid_html body#ecwid_body .ecsp,
-html#ecwid_html body#ecwid_body .ecwid {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.42857;
-  color: #93d500;
-  margin: 0;
-  word-wrap: normal;
-  word-break: normal;
-  min-width: 100%;
-  padding: 0px 0px 20px 0px;
-}
-
-html#ecwid_html body#ecwid_body .ec-size.ec-size--l .ec-store .ec-footer__link {
-  font-size: 30px;
-}
-
-html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-link.link--icon-top {
-  display: inline-block;
-}
-
-html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-footer__link {
-  display: block;
-  max-width: 100%;
-  padding: 10px;
-  line-height: 3.125rem;
-  text-align: center;
-  word-wrap: break-word;
-  border: 1px solid #93d500;
-  border-radius: 0.3125rem;
-}
-
-html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-link--muted,
-html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-link--muted-visited {
-  color: #93d500;
-  -webkit-transition: color 0.12s ease-out 0s;
-  -o-transition: color 0.12s ease-out 0s;
-  transition: color 0.12s ease-out 0s;
-}
-
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--appearance-frame .grid-product__wrap-inner {
-  border-radius: 10px;
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
-  -webkit-transition: background-color 0.2s ease 0s, -webkit-box-shadow 0.2s ease 0s;
-  transition: background-color 0.2s ease 0s, -webkit-box-shadow 0.2s ease 0s;
-  -o-transition: box-shadow 0.2s ease 0s, background-color 0.2s ease 0s;
-  transition: box-shadow 0.2s ease 0s, background-color 0.2s ease 0s;
-  transition: box-shadow 0.2s ease 0s, background-color 0.2s ease 0s, -webkit-box-shadow 0.2s ease 0s;
+.shop__box .ec-cart-email__text,
+.shop__box .ec-cart-next__text,
+.shop__box .ec-cart-coupon__text,
+.shop__box .ec-cart-shopping__wrap,
+.shop__box .form-control__inline-label,
+.shop__box .ec-cart-item-sum__count-label,
+.shop__box .ec-cart-step__section {
+  color: #c4c5c8 !important;
+  font-weight: 300 !important;
+  font-family: "bebasneuepro" !important;
+  font-size: 1rem !important;
 }
 
 .header {
@@ -18827,11 +18717,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     grid-template-columns: 1fr 1fr;
   }
 
-  html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__wrap .grid__products {
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-  }
-
   .header__lang {
     width: 100%;
     display: -webkit-box;
@@ -22313,11 +22198,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
-
-  html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__wrap .grid__products {
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-  }
 }
 
 @media (max-width: 40.625rem) {
@@ -24237,6 +24117,24 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
       font-size: calc(0.75rem + 0.1875 * (100vw - 28.125rem) / 19.87375);
     }
 }
+
+  .shop__box .form-control--select-inline,
+  .shop__box .grid-sort__item,
+  .shop__box .grid-sort__item--sortby {
+    min-width: 100% !important;
+    margin-left: 0px !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+    font-weight: 400 !important;
+    font-size: 1.125rem !important;
+  }
 }
 
 @media (max-width: 28.74875rem) {
@@ -25118,6 +25016,37 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
         -ms-transform: scale(1.3);
             transform: scale(1.3);
     opacity: 1;
+  }
+
+  .shop__box .form-control--select-inline:hover .form-control__select-text,
+  .shop__box .form-control--select-inline:hover .form-control__arrow,
+  .shop__box .grid-sort__item:hover .form-control__select-text,
+  .shop__box .grid-sort__item:hover .form-control__arrow,
+  .shop__box .grid-sort__item--sortby:hover .form-control__select-text,
+  .shop__box .grid-sort__item--sortby:hover .form-control__arrow {
+    color: #ffffff !important;
+  }
+
+  .shop__box .form-control__button:hover,
+  .shop__box .form-control__button--icon-center:hover {
+    background-color: #5b2a98 !important;
+    border: 1px solid #8bc218 !important;
+  }
+
+  .shop__box .form-control__button:hover .form-control__button-text,
+  .shop__box .form-control__button--icon-center:hover .form-control__button-text {
+    color: #8bc218 !important;
+  }
+
+  .shop__box .form-control__button:hover,
+  .shop__box .form-control__button--icon-center:hover {
+    background-color: #5b2a98 !important;
+    border: 1px solid #8bc218 !important;
+  }
+
+  .shop__box .form-control__button:hover .form-control__button-text,
+  .shop__box .form-control__button--icon-center:hover .form-control__button-text {
+    color: #8bc218 !important;
   }
 
   .header__lang-button:hover {
