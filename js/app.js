@@ -17104,9 +17104,9 @@ PERFORMANCE OF THIS SOFTWARE.
             observer: true,
             observeParents: true,
             observeSlideChildren: true,
-            loop: true,
+            loop: false,
             autoplay: {
-                delay: 7e3,
+                delay: 12e3,
                 stopOnLastSlide: false,
                 disableOnInteraction: false
             },
@@ -17119,17 +17119,6 @@ PERFORMANCE OF THIS SOFTWARE.
             navigation: {
                 prevEl: ".video-slider__nav-prev",
                 nextEl: ".video-slider__nav-next"
-            },
-            breakpoints: {
-                320: {
-                    slidesPerView: 1
-                },
-                679.98: {
-                    slidesPerView: 2
-                },
-                991.98: {
-                    slidesPerView: 3
-                }
             }
         });
         new Swiper(".team-leaders-slider", {
@@ -17503,10 +17492,9 @@ PERFORMANCE OF THIS SOFTWARE.
             },
             breakpoints: {
                 320: {
-                    slidesPerView: 2.1,
-                    spaceBetween: 10
+                    slidesPerView: 1.1
                 },
-                509.98: {
+                359.98: {
                     slidesPerView: 2.1,
                     spaceBetween: 10
                 },
